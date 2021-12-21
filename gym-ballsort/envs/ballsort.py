@@ -2,7 +2,9 @@ import gym
 import numpy as np
 import os
 import json
-from termcolor import colored
+import colored
+from colored import stylize
+from stable_baselines.common.env_checker import check_env
 
 
 class BallSortEnv(gym.Env):
@@ -15,7 +17,8 @@ class BallSortEnv(gym.Env):
         
 
         # Define color mapping for balls
-        self.colors = {0: "red", 1: "blue", 2: "white", 3: "yellow", 4: "magenta", 5: "cyan", 6: "green", 7: "grey"}
+        self.colors = {1: "red", 2: "blue", 3: "white", 4: "yellow", 5: "magenta", 6: "cyan", 7: "green", 8: "black", 9:"dark_green",  10:"light_green",  11:"light_yellow", 12:"dodger_blue_3"}
+        
 
         # Define according to level config
         self.n_tubes = len(self.json_file["tubes"])
@@ -118,7 +121,7 @@ class BallSortEnv(gym.Env):
             for ball in row:
                 print("|", end=' ')
                 if ball != 0:
-                    print(colored("O", self.colors[ball]), end=' ')
+                    print(stylize("O", colored.fg(self.colors[ball])), end=' ')
                 else:
                     print(" ", end=' ')
                     
@@ -176,6 +179,9 @@ class BallSortEnv(gym.Env):
 
 env = BallSortEnv()
 
+check_env(env)
+
+"""
 env.reset()
 env.render()
 done = False
@@ -186,3 +192,4 @@ while done is False:
     env.render()
     step += 1
 env.close()
+"""
