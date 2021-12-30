@@ -1,4 +1,4 @@
-import envs
+import gym_ballsort.envs
 import gym
 import numpy as np
 from gym_ballsort.envs.ballsort import BallSortEnv
