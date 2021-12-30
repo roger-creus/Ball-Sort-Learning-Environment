@@ -34,7 +34,7 @@ for building parallel environments (works very well for training agents from Sta
 
 Run a **random agent**
 ```
-python .\gym_ballsort\src\test_env.py
+python .\gym_ballsort\src\random_agent.py
 ```
 
 Test a pre-trained PPO agent for solving the level 7 puzzle
