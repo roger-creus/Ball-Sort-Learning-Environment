@@ -1,0 +1,13 @@
+-> Ballsort level 7 is solved with PPO from SB3 (1M total steps)
+    Reward = 1 for legal actions
+    Reward = 0 for ilegal actions
+    Reward for solving a tube = 50
+    Reward for winning game = 300
+    Reward for terminal state = -300
+    Reward for episode length limit = -1
+    Max steps = 3000
+
+    -> Problem: Giving reward for legal actions correlates with solving tubes and correlates with solving the level...
+    Will this hold for more complex levels?
+
+    
