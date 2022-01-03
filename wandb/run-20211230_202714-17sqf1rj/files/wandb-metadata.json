@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.11",
+    "heartbeatAt": "2021-12-30T19:27:17.161742",
+    "startedAt": "2021-12-30T19:27:14.830271",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": ".\\gym_ballsort\\src\\ppo.py",
+    "codePath": "gym_ballsort\\src\\ppo.py",
+    "git": {
+        "remote": "https://github.com/yuyecreus/Ball-Sort-Learning-Environment.git",
+        "commit": "35e8dac104d612953696513d4de7a9c2c48a1ff7"
+    },
+    "email": "creus99@gmail.com",
+    "root": "C:/Users/PC/Desktop/gym_ballsort",
+    "host": "DESKTOP-LNAR4EO",
+    "username": "PC",
+    "executable": "C:\\Users\\PC\\anaconda3\\envs\\ballsort3.7\\python.exe"
+}

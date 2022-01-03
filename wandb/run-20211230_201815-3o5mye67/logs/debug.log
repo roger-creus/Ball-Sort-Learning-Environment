@@ -1,0 +1,24 @@
+2021-12-30 20:18:15,093 INFO    MainThread:6212 [wandb_setup.py:_flush():71] setting env: {}
+2021-12-30 20:18:15,093 INFO    MainThread:6212 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-12-30 20:18:15,093 INFO    MainThread:6212 [wandb_init.py:_log_setup():371] Logging user logs to C:\Users\PC\Desktop\gym_ballsort\wandb\run-20211230_201815-3o5mye67\logs\debug.log
+2021-12-30 20:18:15,093 INFO    MainThread:6212 [wandb_init.py:_log_setup():372] Logging internal logs to C:\Users\PC\Desktop\gym_ballsort\wandb\run-20211230_201815-3o5mye67\logs\debug-internal.log
+2021-12-30 20:18:15,094 INFO    MainThread:6212 [wandb_init.py:init():404] calling init triggers
+2021-12-30 20:18:15,094 INFO    MainThread:6212 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'gamma': 0.99, 'log_interval': 100, 'max_episode_length': 3000, 'num_episodes': 10000, 'lr': 0.0005, 'clip_param': 0.1, 'ppo_epoch': 10, 'replay_size': 1000, 'batch_size': 64, 'c1': 1.0, 'c2': 0.01}
+2021-12-30 20:18:15,094 INFO    MainThread:6212 [wandb_init.py:init():460] starting backend
+2021-12-30 20:18:15,094 INFO    MainThread:6212 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2021-12-30 20:18:15,098 INFO    MainThread:6212 [backend.py:ensure_launched():216] starting backend process...
+2021-12-30 20:18:15,144 INFO    MainThread:6212 [backend.py:ensure_launched():222] started backend process with pid: 10180
+2021-12-30 20:18:15,145 INFO    MainThread:6212 [wandb_init.py:init():469] backend started and connected
+2021-12-30 20:18:15,147 INFO    MainThread:6212 [wandb_init.py:init():533] updated telemetry
+2021-12-30 20:18:15,225 INFO    MainThread:6212 [wandb_init.py:init():563] communicating current version
+2021-12-30 20:18:15,817 INFO    MainThread:6212 [wandb_init.py:init():568] got version response 
+2021-12-30 20:18:15,817 INFO    MainThread:6212 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2021-12-30 20:18:16,046 INFO    MainThread:6212 [wandb_init.py:init():606] starting run threads in backend
+2021-12-30 20:18:19,529 INFO    MainThread:6212 [wandb_run.py:_console_start():1810] atexit reg
+2021-12-30 20:18:19,530 INFO    MainThread:6212 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2021-12-30 20:18:19,530 INFO    MainThread:6212 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2021-12-30 20:18:19,531 INFO    MainThread:6212 [wandb_run.py:_redirect():1745] Redirects installed.
+2021-12-30 20:18:19,531 INFO    MainThread:6212 [wandb_init.py:init():633] run started, returning control to user process
+2021-12-30 20:23:00,625 INFO    MainThread:6212 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 255
+2021-12-30 20:23:00,625 INFO    MainThread:6212 [wandb_run.py:_restore():1752] restore

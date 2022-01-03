@@ -18,7 +18,7 @@ class BallSortEnv(gym.Env):
         self.f = open("levels/007-config.json")
         self.json_file = json.load(self.f)
         self.current_step = 0
-        self.max_steps = 3000
+        self.max_steps = 500
 
         # Define color mapping for balls
         self.colors = {1: "red", 2: "blue", 3: "white", 4: "yellow", 5: "magenta", 6: "cyan", 7: "green", 8: "black", 9:"dark_green",  10:"light_green",  11:"light_yellow", 12:"dodger_blue_3"}
@@ -48,7 +48,7 @@ class BallSortEnv(gym.Env):
         if self.current_step >= self.max_steps:
             print("episode length limit")
             self.current_step = 0
-            return self.state, -1, True, {}
+            return self.state, -5, True, {}
         
         source = self.action_mapping[action][0]
         goal = self.action_mapping[action][1]
@@ -94,22 +94,22 @@ class BallSortEnv(gym.Env):
         if ilegal is not True:
             self.state[goal, goal_ball_position+1] = self.state[source, source_ball_position]
             self.state[source,source_ball_position] = 0
-            reward = 0
+            reward = -1
             if self.is_solved_tube(goal_tube):
-                reward += 50
+                reward += 100
         else:
-            reward = 0
+            reward = -2
 
         # Always do this because for a legal move we overrite the self.state
         next_state = self.state
         
         if self.is_solved_state(next_state):
             done = True
-            reward = 300
+            reward = 500
             print("SOLVED")
         elif self.is_terminal_state(next_state):
             done = True
-            reward = -300
+            reward = -500
             print("TERMINAL")
             
 

@@ -21,11 +21,12 @@ model = PPO.load(model_path)
 obs = env.reset()
 done = False
 running_reward = 0
+steps = 0
 while True and done is False:
+    steps += 1
     action, _states = model.predict(obs)
     obs, reward, done, info = env.step(action)
     running_reward += reward
-    print(reward)
     env.render()
 
-print("reward: " + str(running_reward))
+print("in " + str(steps) + " steps")

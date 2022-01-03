@@ -1,0 +1,1 @@
+{"policy_loss": 1.2039271593093872, "value_loss": 0.03935469314455986, "running_reward": -1002.087954121907, "mean_entropy": 0.9700297713279724, "ratio": 1.100014567375183, "_runtime": 105, "_timestamp": 1640892871, "_step": 64, "_wandb": {"runtime": 105}}

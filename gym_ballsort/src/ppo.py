@@ -90,8 +90,6 @@ def train(policy, optimizer, memory, hparams):
 
     old_a_logp = torch.tensor(memory.buffer['a_logp'], dtype=torch.float).view(-1, 1)
 
-
-
     with torch.no_grad():
         target_v = r + gamma * policy(s_)[1]
         adv = target_v - policy(s)[1]
@@ -104,19 +102,15 @@ def train(policy, optimizer, memory, hparams):
             
             a_logp = dist.log_prob(a[index]).unsqueeze(dim=1)
 
-           
             ratio = torch.exp(a_logp - old_a_logp[index])
 
             surr1 = ratio * adv[index]
-
-            
             surr2 = torch.clamp(ratio, 1.0 - clip_param, 1.0 + clip_param) * adv[index]
 
             policy_loss = -torch.min(surr1, surr2).mean()
             value_loss = F.smooth_l1_loss(policy(s[index])[1], target_v[index])
             entropy = - entropy.mean()
-
-            
+ 
             loss = policy_loss + c1 * value_loss + c2 * entropy
 
             optimizer.zero_grad()
@@ -142,15 +136,15 @@ def test(env, policy, render=False):
 hparams = {
     'gamma' : 0.99,
     'log_interval' : 100,
-    'max_episode_length' : 3000,
+    'max_episode_length' : 500,
     'num_episodes': 10000,
-    'lr' : 7e-5,
-    'clip_param': 0.1,
+    'lr' : 0.0003,
+    'clip_param': 0.2,
     'ppo_epoch': 10,
     'replay_size': 500,
-    'batch_size': 128,
-    'c1': 1.,
-    'c2': 0.021
+    'batch_size': 64,
+    'c1': 0.5,
+    'c2': 0.01
 }
 
 

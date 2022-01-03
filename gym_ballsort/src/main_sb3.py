@@ -33,10 +33,10 @@ run = wandb.init(
 )
 """
 
-env = make_vec_env("ballsort-v0", n_envs=1)
+env = make_vec_env("ballsort-v0", n_envs=4)
 
-model = DQN("MlpPolicy", env, verbose=0, tensorboard_log="./dqn_tensorboard/")
-model.learn(total_timesteps=5000000, tb_log_name="level 7 tube reward")
+model = PPO("MlpPolicy", env, verbose=0, tensorboard_log="./ppo_tensorboard/")
+model.learn(total_timesteps=1000000, tb_log_name="level 7 tube reward 500 steps")
 #run.finish()
 
 """
@@ -51,7 +51,7 @@ plt.title = "Episode Lengths"
 plt.show()
 """
 
-model.save("dqn_ballsort_level_7")
+model.save("ppo_ballsort_level_7_500steps")
 
 test_env = BallSortEnv()
 obs = test_env.reset()
