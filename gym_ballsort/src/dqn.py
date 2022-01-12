@@ -41,14 +41,21 @@ class ReplayMemory(object):
 class DQN(nn.Module):
     def __init__(self, inputs, outputs, hidden_size=128):
         super(DQN, self).__init__()
-        self.affine1 = nn.Linear(36, 128)
-        self.affine2 = nn.Linear(128, outputs)
+        self.affine1 = nn.Linear(36, 64)
+        self.affine2 = nn.Linear(64, 128)
+        self.affine3 = nn.Linear(128, 64)
+        self.affine4 = nn.Linear(64, outputs)
 
     def forward(self, x):
-        x = torch.nn.functional.normalize(torch.flatten(x, start_dim = 1))
+        #x = torch.nn.functional.normalize(torch.flatten(x, start_dim = 1))
+        x = torch.flatten(x, start_dim = 1)
         x = self.affine1(x)
         x = F.relu(x)
         x = self.affine2(x)
+        x = F.relu(x)
+        x = self.affine3(x)
+        x = F.relu(x)
+        x = self.affine4(x)
         return x
 
 def compute_eps_threshold(step, eps_start, eps_end, eps_decay):
@@ -140,24 +147,19 @@ def test(env, policy, render=False):
 hparams = {
     'gamma' : 0.99,             # discount factor
     'log_interval' : 25,        # controls how often we log progress, in episodes
-    'episodes': 1000,          # number of steps to train on
-    'num_steps': 2000,
-    'batch_size': 256,          # batch size for optimization
-    'lr' : 1e-4,                # learning rate
+    'episodes': 1000000,          # number of steps to train on
+    'num_steps': 1000,
+    'batch_size': 128,          # batch size for optimization
+    'lr' : 1e-3,                # learning rate
     'eps_start': 1.0,           # initial value for epsilon (in epsilon-greedy)
     'eps_end': 0.1,             # final value for epsilon (in epsilon-greedy)
-    'eps_decay': 30000,         # length of epsilon decay, in env steps
-    'target_update': 1000,      # how often to update target net, in env steps
-    'replay_size': 10000,       # replay memory size
+    'eps_decay': 50000,         # length of epsilon decay, in env steps
+    'target_update': 5000,      # how often to update target net, in env steps
+    'replay_size': 2000,       # replay memory size
 }
 
 # Create environment
 env = BallSortEnv()
-
-# Fix random seed (for reproducibility)
-seed = 543
-torch.manual_seed(seed)
-torch.cuda.manual_seed(seed)
 
 # Get number of actions from gym action space
 n_inputs = env.observation_space.shape[0]
@@ -180,6 +182,7 @@ step_count = 0
 running_reward = 0
 
 episode = 0
+
 
 ep_rew_history = []
 i_episode, ep_reward = 0, -float('inf')

@@ -1,0 +1,18 @@
+C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+Traceback (most recent call last):
+  File ".\gym_ballsort\src\drqn.py", line 183, in <module>
+    action, hidden = agent.get_action(obs, hidden, get_decay(epi_iter))
+  File ".\gym_ballsort\src\drqn.py", line 154, in get_action
+    q, new_hidden = self.drqn.forward(obs, hidden)
+  File ".\gym_ballsort\src\drqn.py", line 83, in forward
+    h3, new_hidden = self.lstm(h2, hidden)
+  File "C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\torch\nn\modules\rnn.py", line 689, in forward
+    self.check_forward_args(input, hx, batch_sizes)
+  File "C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\torch\nn\modules\rnn.py", line 632, in check_forward_args
+    self.check_input(input, batch_sizes)
+  File "C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\torch\nn\modules\rnn.py", line 207, in check_input
+    self.input_size, input.size(-1)))
+RuntimeError: input.size(-1) must be equal to input_size. Expected 5, got 36

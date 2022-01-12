@@ -1,0 +1,851 @@
+C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+episode length limit
+Episode 0 reward 39
+episode length limit
+Episode 1 reward 36
+SOLVED
+Episode 2 reward 3349
+episode length limit
+Episode 3 reward 31
+episode length limit
+Episode 4 reward 38
+episode length limit
+Episode 5 reward 349
+episode length limit
+Episode 6 reward 48
+SOLVED
+Episode 7 reward 3387
+episode length limit
+Episode 8 reward 16
+SOLVED
+Episode 9 reward 3412
+episode length limit
+Episode 10 reward 5
+SOLVED
+Episode 11 reward 3387
+episode length limit
+Episode 12 reward 18
+episode length limit
+Episode 13 reward 45
+episode length limit
+Episode 14 reward 311
+episode length limit
+Episode 15 reward 49
+episode length limit
+Episode 16 reward 29
+episode length limit
+Episode 17 reward 414
+TERMINAL
+Episode 18 reward -2993
+SOLVED
+Episode 19 reward 3398
+TERMINAL
+Episode 20 reward -2999
+episode length limit
+Episode 21 reward 5
+episode length limit
+Episode 22 reward 280
+TERMINAL
+Episode 23 reward -2996
+episode length limit
+Episode 24 reward 287
+episode length limit
+Episode 25 reward 277
+episode length limit
+Episode 26 reward 45
+episode length limit
+Episode 27 reward 413
+episode length limit
+Episode 28 reward 44
+episode length limit
+Episode 29 reward 53
+SOLVED
+Episode 30 reward 3370
+episode length limit
+Episode 31 reward 133
+SOLVED
+Episode 32 reward 3354
+episode length limit
+Episode 33 reward 36
+TERMINAL
+Episode 34 reward -2997
+SOLVED
+Episode 35 reward 3353
+episode length limit
+Episode 36 reward 29
+SOLVED
+Episode 37 reward 3436
+episode length limit
+Episode 38 reward 5
+SOLVED
+Episode 39 reward 3393
+episode length limit
+Episode 40 reward 24
+SOLVED
+Episode 41 reward 3390
+episode length limit
+Episode 42 reward 181
+episode length limit
+Episode 43 reward 44
+episode length limit
+Episode 44 reward 37
+SOLVED
+Episode 45 reward 3371
+episode length limit
+Episode 46 reward 25
+episode length limit
+Episode 47 reward 38
+TERMINAL
+Episode 48 reward -2997
+TERMINAL
+Episode 49 reward -2996
+episode length limit
+Episode 50 reward 50
+episode length limit
+Episode 51 reward 36
+SOLVED
+Episode 52 reward 3391
+episode length limit
+Episode 53 reward 8
+SOLVED
+Episode 54 reward 3380
+episode length limit
+Episode 55 reward 42
+episode length limit
+Episode 56 reward 52
+episode length limit
+Episode 57 reward 40
+episode length limit
+Episode 58 reward 43
+episode length limit
+Episode 59 reward 41
+episode length limit
+Episode 60 reward 373
+SOLVED
+Episode 61 reward 3375
+episode length limit
+Episode 62 reward 28
+episode length limit
+Episode 63 reward 45
+episode length limit
+Episode 64 reward 26
+SOLVED
+Episode 65 reward 3391
+episode length limit
+Episode 66 reward 11
+SOLVED
+Episode 67 reward 3368
+episode length limit
+Episode 68 reward 136
+SOLVED
+Episode 69 reward 3365
+TERMINAL
+Episode 70 reward -2996
+episode length limit
+Episode 71 reward 33
+episode length limit
+Episode 72 reward 33
+SOLVED
+Episode 73 reward 3379
+episode length limit
+Episode 74 reward 36
+TERMINAL
+Episode 75 reward -2997
+SOLVED
+Episode 76 reward 3375
+episode length limit
+Episode 77 reward 16
+episode length limit
+Episode 78 reward 141
+SOLVED
+Episode 79 reward 3362
+episode length limit
+Episode 80 reward 27
+episode length limit
+Episode 81 reward 34
+SOLVED
+Episode 82 reward 3383
+episode length limit
+Episode 83 reward 244
+episode length limit
+Episode 84 reward 30
+episode length limit
+Episode 85 reward 55
+SOLVED
+Episode 86 reward 3422
+episode length limit
+Episode 87 reward 5
+SOLVED
+Episode 88 reward 3391
+TERMINAL
+Episode 89 reward -2997
+episode length limit
+Episode 90 reward 3
+SOLVED
+Episode 91 reward 3368
+episode length limit
+Episode 92 reward 81
+TERMINAL
+Episode 93 reward -2996
+SOLVED
+Episode 94 reward 3382
+episode length limit
+Episode 95 reward 133
+episode length limit
+Episode 96 reward 76
+episode length limit
+Episode 97 reward 38
+SOLVED
+Episode 98 reward 3378
+episode length limit
+Episode 99 reward 11
+episode length limit
+Episode 100 reward 32
+episode length limit
+Episode 101 reward 48
+episode length limit
+Episode 102 reward 97
+episode length limit
+Episode 103 reward 40
+episode length limit
+Episode 104 reward 49
+SOLVED
+Episode 105 reward 3398
+episode length limit
+Episode 106 reward 7
+SOLVED
+Episode 107 reward 3346
+episode length limit
+Episode 108 reward 24
+SOLVED
+Episode 109 reward 3384
+episode length limit
+Episode 110 reward 82
+SOLVED
+Episode 111 reward 3387
+episode length limit
+Episode 112 reward 17
+episode length limit
+Episode 113 reward 44
+SOLVED
+Episode 114 reward 3390
+episode length limit
+Episode 115 reward 14
+SOLVED
+Episode 116 reward 3369
+episode length limit
+Episode 117 reward 181
+SOLVED
+Episode 118 reward 3379
+episode length limit
+Episode 119 reward 26
+episode length limit
+Episode 120 reward 60
+episode length limit
+Episode 121 reward 46
+SOLVED
+Episode 122 reward 3413
+episode length limit
+Episode 123 reward 14
+SOLVED
+Episode 124 reward 3386
+episode length limit
+Episode 125 reward 13
+episode length limit
+Episode 126 reward 368
+episode length limit
+Episode 127 reward 29
+episode length limit
+Episode 128 reward 44
+SOLVED
+Episode 129 reward 3374
+episode length limit
+Episode 130 reward 253
+episode length limit
+Episode 131 reward 72
+SOLVED
+Episode 132 reward 3381
+episode length limit
+Episode 133 reward 74
+episode length limit
+Episode 134 reward 43
+SOLVED
+Episode 135 reward 3366
+episode length limit
+Episode 136 reward 132
+episode length limit
+Episode 137 reward 46
+episode length limit
+Episode 138 reward 46
+episode length limit
+Episode 139 reward 31
+episode length limit
+Episode 140 reward 46
+SOLVED
+Episode 141 reward 3383
+episode length limit
+Episode 142 reward 69
+SOLVED
+Episode 143 reward 3396
+episode length limit
+Episode 144 reward 63
+episode length limit
+Episode 145 reward 40
+episode length limit
+Episode 146 reward 29
+episode length limit
+Episode 147 reward 52
+episode length limit
+Episode 148 reward 26
+SOLVED
+Episode 149 reward 3367
+episode length limit
+Episode 150 reward 135
+episode length limit
+Episode 151 reward 137
+episode length limit
+Episode 152 reward 235
+episode length limit
+Episode 153 reward 38
+episode length limit
+Episode 154 reward 30
+episode length limit
+Episode 155 reward 28
+episode length limit
+Episode 156 reward 400
+episode length limit
+Episode 157 reward 155
+episode length limit
+Episode 158 reward 403
+episode length limit
+Episode 159 reward 48
+SOLVED
+Episode 160 reward 3378
+TERMINAL
+Episode 161 reward -2999
+TERMINAL
+Episode 162 reward -2987
+episode length limit
+Episode 163 reward 7
+episode length limit
+Episode 164 reward 48
+episode length limit
+Episode 165 reward 42
+SOLVED
+Episode 166 reward 3382
+episode length limit
+Episode 167 reward 34
+episode length limit
+Episode 168 reward 54
+episode length limit
+Episode 169 reward 32
+SOLVED
+Episode 170 reward 3386
+episode length limit
+Episode 171 reward 10
+TERMINAL
+Episode 172 reward -2997
+SOLVED
+Episode 173 reward 3400
+episode length limit
+Episode 174 reward 2
+SOLVED
+Episode 175 reward 3402
+episode length limit
+Episode 176 reward 5
+episode length limit
+Episode 177 reward 37
+SOLVED
+Episode 178 reward 3380
+episode length limit
+Episode 179 reward 38
+episode length limit
+Episode 180 reward 44
+SOLVED
+Episode 181 reward 3362
+episode length limit
+Episode 182 reward 23
+episode length limit
+Episode 183 reward 39
+episode length limit
+Episode 184 reward 143
+SOLVED
+Episode 185 reward 3379
+episode length limit
+Episode 186 reward 12
+episode length limit
+Episode 187 reward 172
+SOLVED
+Episode 188 reward 3388
+episode length limit
+Episode 189 reward 11
+episode length limit
+Episode 190 reward 89
+episode length limit
+Episode 191 reward 48
+episode length limit
+Episode 192 reward 241
+SOLVED
+Episode 193 reward 3406
+episode length limit
+Episode 194 reward 68
+SOLVED
+Episode 195 reward 3398
+episode length limit
+Episode 196 reward 21
+episode length limit
+Episode 197 reward 33
+episode length limit
+Episode 198 reward 157
+episode length limit
+Episode 199 reward 44
+SOLVED
+Episode 200 reward 3372
+SOLVED
+Episode 201 reward 3362
+episode length limit
+Episode 202 reward 0
+episode length limit
+Episode 203 reward 37
+episode length limit
+Episode 204 reward 35
+episode length limit
+Episode 205 reward 376
+TERMINAL
+Episode 206 reward -2999
+SOLVED
+Episode 207 reward 3387
+episode length limit
+Episode 208 reward 32
+SOLVED
+Episode 209 reward 3363
+episode length limit
+Episode 210 reward 183
+episode length limit
+Episode 211 reward 59
+SOLVED
+Episode 212 reward 3371
+episode length limit
+Episode 213 reward 38
+episode length limit
+Episode 214 reward 297
+SOLVED
+Episode 215 reward 3366
+episode length limit
+Episode 216 reward 237
+episode length limit
+Episode 217 reward 42
+episode length limit
+Episode 218 reward 74
+episode length limit
+Episode 219 reward 37
+episode length limit
+Episode 220 reward 47
+episode length limit
+Episode 221 reward 34
+episode length limit
+Episode 222 reward 45
+episode length limit
+Episode 223 reward 349
+episode length limit
+Episode 224 reward 47
+SOLVED
+Episode 225 reward 3397
+episode length limit
+Episode 226 reward 9
+episode length limit
+Episode 227 reward 42
+episode length limit
+Episode 228 reward 60
+episode length limit
+Episode 229 reward 37
+SOLVED
+Episode 230 reward 3402
+episode length limit
+Episode 231 reward 6
+SOLVED
+Episode 232 reward 3390
+TERMINAL
+Episode 233 reward -2993
+episode length limit
+Episode 234 reward 2
+TERMINAL
+Episode 235 reward -2999
+SOLVED
+Episode 236 reward 3376
+episode length limit
+Episode 237 reward 16
+episode length limit
+Episode 238 reward 40
+SOLVED
+Episode 239 reward 3392
+episode length limit
+Episode 240 reward 8
+episode length limit
+Episode 241 reward 38
+SOLVED
+Episode 242 reward 3360
+episode length limit
+Episode 243 reward 12
+episode length limit
+Episode 244 reward 36
+TERMINAL
+Episode 245 reward -2999
+SOLVED
+Episode 246 reward 3382
+episode length limit
+Episode 247 reward 125
+episode length limit
+Episode 248 reward 38
+SOLVED
+Episode 249 reward 3362
+episode length limit
+Episode 250 reward 298
+episode length limit
+Episode 251 reward 396
+TERMINAL
+Episode 252 reward -2998
+episode length limit
+Episode 253 reward 60
+episode length limit
+Episode 254 reward 37
+episode length limit
+Episode 255 reward 373
+TERMINAL
+Episode 256 reward -2999
+SOLVED
+Episode 257 reward 3375
+episode length limit
+Episode 258 reward 22
+episode length limit
+Episode 259 reward 66
+episode length limit
+Episode 260 reward 42
+episode length limit
+Episode 261 reward 25
+SOLVED
+Episode 262 reward 3382
+episode length limit
+Episode 263 reward 17
+episode length limit
+Episode 264 reward 199
+SOLVED
+Episode 265 reward 3368
+episode length limit
+Episode 266 reward 13
+SOLVED
+Episode 267 reward 3419
+episode length limit
+Episode 268 reward 7
+episode length limit
+Episode 269 reward 348
+SOLVED
+Episode 270 reward 3376
+episode length limit
+Episode 271 reward 10
+episode length limit
+Episode 272 reward 51
+episode length limit
+Episode 273 reward 72
+episode length limit
+Episode 274 reward 278
+SOLVED
+Episode 275 reward 3402
+episode length limit
+Episode 276 reward 4
+episode length limit
+Episode 277 reward 340
+episode length limit
+Episode 278 reward 54
+episode length limit
+Episode 279 reward 22
+SOLVED
+Episode 280 reward 3374
+episode length limit
+Episode 281 reward 56
+episode length limit
+Episode 282 reward 411
+episode length limit
+Episode 283 reward 59
+SOLVED
+Episode 284 reward 3361
+episode length limit
+Episode 285 reward 25
+episode length limit
+Episode 286 reward 222
+TERMINAL
+Episode 287 reward -2994
+episode length limit
+Episode 288 reward 165
+episode length limit
+Episode 289 reward 144
+episode length limit
+Episode 290 reward 284
+episode length limit
+Episode 291 reward 401
+episode length limit
+Episode 292 reward 47
+TERMINAL
+Episode 293 reward -2999
+SOLVED
+Episode 294 reward 3384
+episode length limit
+Episode 295 reward 69
+episode length limit
+Episode 296 reward 60
+episode length limit
+Episode 297 reward 187
+episode length limit
+Episode 298 reward 53
+episode length limit
+Episode 299 reward 45
+SOLVED
+Episode 300 reward 3380
+episode length limit
+Episode 301 reward 17
+episode length limit
+Episode 302 reward 61
+episode length limit
+Episode 303 reward 358
+episode length limit
+Episode 304 reward 289
+episode length limit
+Episode 305 reward 155
+episode length limit
+Episode 306 reward 50
+episode length limit
+Episode 307 reward 54
+TERMINAL
+Episode 308 reward -2995
+episode length limit
+Episode 309 reward 293
+episode length limit
+Episode 310 reward 61
+SOLVED
+Episode 311 reward 3397
+episode length limit
+Episode 312 reward 9
+episode length limit
+Episode 313 reward 38
+episode length limit
+Episode 314 reward 44
+SOLVED
+Episode 315 reward 3367
+episode length limit
+Episode 316 reward 9
+episode length limit
+Episode 317 reward 65
+SOLVED
+Episode 318 reward 3417
+episode length limit
+Episode 319 reward 25
+episode length limit
+Episode 320 reward 322
+episode length limit
+Episode 321 reward 283
+SOLVED
+Episode 322 reward 3354
+episode length limit
+Episode 323 reward 28
+episode length limit
+Episode 324 reward 201
+episode length limit
+Episode 325 reward 253
+episode length limit
+Episode 326 reward 393
+episode length limit
+Episode 327 reward 303
+SOLVED
+Episode 328 reward 3366
+episode length limit
+Episode 329 reward 66
+SOLVED
+Episode 330 reward 3369
+episode length limit
+Episode 331 reward 27
+episode length limit
+Episode 332 reward 43
+episode length limit
+Episode 333 reward 192
+episode length limit
+Episode 334 reward 56
+episode length limit
+Episode 335 reward 57
+TERMINAL
+Episode 336 reward -2993
+SOLVED
+Episode 337 reward 3374
+episode length limit
+Episode 338 reward 3
+episode length limit
+Episode 339 reward 298
+episode length limit
+Episode 340 reward 51
+episode length limit
+Episode 341 reward 43
+episode length limit
+Episode 342 reward 418
+SOLVED
+Episode 343 reward 3343
+TERMINAL
+Episode 344 reward -2987
+episode length limit
+Episode 345 reward 25
+episode length limit
+Episode 346 reward 52
+episode length limit
+Episode 347 reward 49
+SOLVED
+Episode 348 reward 3375
+episode length limit
+Episode 349 reward 37
+episode length limit
+Episode 350 reward 41
+SOLVED
+Episode 351 reward 3376
+episode length limit
+Episode 352 reward 21
+SOLVED
+Episode 353 reward 3381
+episode length limit
+Episode 354 reward 12
+episode length limit
+Episode 355 reward 286
+episode length limit
+Episode 356 reward 73
+episode length limit
+Episode 357 reward 48
+episode length limit
+Episode 358 reward 43
+episode length limit
+Episode 359 reward 52
+episode length limit
+Episode 360 reward 66
+SOLVED
+Episode 361 reward 3381
+episode length limit
+Episode 362 reward 2
+episode length limit
+Episode 363 reward 30
+episode length limit
+Episode 364 reward 28
+episode length limit
+Episode 365 reward 82
+episode length limit
+Episode 366 reward 51
+episode length limit
+Episode 367 reward 42
+episode length limit
+Episode 368 reward 35
+TERMINAL
+Episode 369 reward -2995
+episode length limit
+Episode 370 reward 27
+SOLVED
+Episode 371 reward 3348
+episode length limit
+Episode 372 reward 251
+episode length limit
+Episode 373 reward 291
+episode length limit
+Episode 374 reward 168
+episode length limit
+Episode 375 reward 398
+episode length limit
+Episode 376 reward 31
+episode length limit
+Episode 377 reward 282
+SOLVED
+Episode 378 reward 3358
+episode length limit
+Episode 379 reward 180
+SOLVED
+Episode 380 reward 3375
+episode length limit
+Episode 381 reward 9
+episode length limit
+Episode 382 reward 29
+SOLVED
+Episode 383 reward 3372
+episode length limit
+Episode 384 reward 5
+episode length limit
+Episode 385 reward 26
+SOLVED
+Episode 386 reward 3390
+episode length limit
+Episode 387 reward 3
+episode length limit
+Episode 388 reward 343
+episode length limit
+Episode 389 reward 306
+TERMINAL
+Episode 390 reward -2994
+episode length limit
+Episode 391 reward 334
+SOLVED
+Episode 392 reward 3372
+episode length limit
+Episode 393 reward 26
+episode length limit
+Episode 394 reward 325
+episode length limit
+Episode 395 reward 31
+episode length limit
+Episode 396 reward 28
+episode length limit
+Episode 397 reward 336
+episode length limit
+Episode 398 reward 45
+episode length limit
+Episode 399 reward 312
+episode length limit
+Episode 400 reward 35
+episode length limit
+Episode 401 reward 40
+episode length limit
+Episode 402 reward 200
+SOLVED
+Episode 403 reward 3401
+episode length limit
+Episode 404 reward 68
+episode length limit
+Episode 405 reward 148
+episode length limit
+Episode 406 reward 32
+SOLVED
+Episode 407 reward 3402
+episode length limit
+Episode 408 reward 2
+episode length limit
+Episode 409 reward 31
+episode length limit
+Episode 410 reward 428
+SOLVED
+Episode 411 reward 3396
+episode length limit
+Episode 412 reward 7
+episode length limit
+Episode 413 reward 145
+SOLVED
+Episode 414 reward 3383
+episode length limit
+Episode 415 reward 12
+episode length limit
+Episode 416 reward 20
+episode length limit
+Episode 417 reward 802
+SOLVED
+Episode 418 reward 3352
+episode length limit
+Episode 419 reward 27
+episode length limit
+Episode 420 reward 25
+SOLVED
+Episode 421 reward 3362
+episode length limit
+Episode 422 reward 14
+episode length limit
+Episode 423 reward 30
+episode length limit

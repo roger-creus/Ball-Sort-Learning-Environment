@@ -7,9 +7,6 @@ from colored import stylize
 import random
 
 
-
-
-
 class BallSortEnv(gym.Env):
     def __init__(self):
         """ A tube [1,2,3,4] is read from bottom to top """
@@ -94,22 +91,21 @@ class BallSortEnv(gym.Env):
         if ilegal is not True:
             self.state[goal, goal_ball_position+1] = self.state[source, source_ball_position]
             self.state[source,source_ball_position] = 0
-            reward = 0
+            reward = 1
             if self.is_solved_tube(goal_tube):
                 reward += 50
         else:
             reward = 0
-
         # Always do this because for a legal move we overrite the self.state
         next_state = self.state
         
         if self.is_solved_state(next_state):
             done = True
-            reward = 300
+            reward = 3000
             print("SOLVED")
         elif self.is_terminal_state(next_state):
             done = True
-            reward = -300
+            reward = -3000
             print("TERMINAL")
             
 
@@ -176,7 +172,7 @@ class BallSortEnv(gym.Env):
             # if there is an empty tube then state is not terminal
             if np.nonzero(tube_i)[0].size == 0:
                 return False
-            else:
+            else:   
                 highest_ball_position_i = np.max(np.nonzero(tube_i))
                 highest_ball_i = tube_i[highest_ball_position_i]
                 j = 0

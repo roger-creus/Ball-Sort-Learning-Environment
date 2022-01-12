@@ -1,6 +1,7 @@
 import gym_ballsort.envs
 import gym
 
+
 # EXAMPLE RANDOM AGENT
 
 env = gym.make("ballsort-v0")

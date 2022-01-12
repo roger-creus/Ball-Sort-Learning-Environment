@@ -1,0 +1,24 @@
+2022-01-10 13:29:44,757 INFO    MainThread:44900 [wandb_setup.py:_flush():71] setting env: {}
+2022-01-10 13:29:44,757 INFO    MainThread:44900 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-10 13:29:44,757 INFO    MainThread:44900 [wandb_init.py:_log_setup():371] Logging user logs to C:\Users\creus\Desktop\Ball-Sort-Learning-Environment\wandb\run-20220110_132944-1bf0ary5\logs\debug.log
+2022-01-10 13:29:44,758 INFO    MainThread:44900 [wandb_init.py:_log_setup():372] Logging internal logs to C:\Users\creus\Desktop\Ball-Sort-Learning-Environment\wandb\run-20220110_132944-1bf0ary5\logs\debug-internal.log
+2022-01-10 13:29:44,758 INFO    MainThread:44900 [wandb_init.py:init():404] calling init triggers
+2022-01-10 13:29:44,759 INFO    MainThread:44900 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'gamma': 0.99, 'log_interval': 25, 'episodes': 1000000, 'num_steps': 1000, 'batch_size': 128, 'lr': 0.0005, 'eps_start': 1.0, 'eps_end': 0.1, 'eps_decay': 100000, 'target_update': 1000, 'replay_size': 2000}
+2022-01-10 13:29:44,759 INFO    MainThread:44900 [wandb_init.py:init():460] starting backend
+2022-01-10 13:29:44,759 INFO    MainThread:44900 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-01-10 13:29:44,767 INFO    MainThread:44900 [backend.py:ensure_launched():216] starting backend process...
+2022-01-10 13:29:44,943 INFO    MainThread:44900 [backend.py:ensure_launched():222] started backend process with pid: 5444
+2022-01-10 13:29:44,943 INFO    MainThread:44900 [wandb_init.py:init():469] backend started and connected
+2022-01-10 13:29:44,943 INFO    MainThread:44900 [wandb_init.py:init():533] updated telemetry
+2022-01-10 13:29:45,094 INFO    MainThread:44900 [wandb_init.py:init():563] communicating current version
+2022-01-10 13:29:46,823 INFO    MainThread:44900 [wandb_init.py:init():568] got version response 
+2022-01-10 13:29:46,823 INFO    MainThread:44900 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-10 13:29:47,084 INFO    MainThread:44900 [wandb_init.py:init():606] starting run threads in backend
+2022-01-10 13:29:51,564 INFO    MainThread:44900 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-10 13:29:51,568 INFO    MainThread:44900 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2022-01-10 13:29:51,569 INFO    MainThread:44900 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2022-01-10 13:29:51,572 INFO    MainThread:44900 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-01-10 13:29:51,572 INFO    MainThread:44900 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-10 14:44:29,779 INFO    MainThread:44900 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 255
+2022-01-10 14:44:29,815 INFO    MainThread:44900 [wandb_run.py:_restore():1752] restore
