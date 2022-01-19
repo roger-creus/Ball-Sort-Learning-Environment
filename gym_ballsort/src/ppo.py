@@ -194,8 +194,7 @@ for i_episode in range(hparams['num_episodes']):
                 'mean_entropy': avg_entropy,
                 'ratio': ratio
                 })
-
-
+                
         state = next_state
 
         ep_reward += reward

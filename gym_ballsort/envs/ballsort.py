@@ -7,9 +7,6 @@ from colored import stylize
 import random
 
 
-
-
-
 class BallSortEnv(gym.Env):
     def __init__(self):
         """ A tube [1,2,3,4] is read from bottom to top """
@@ -18,7 +15,7 @@ class BallSortEnv(gym.Env):
         self.f = open("levels/007-config.json")
         self.json_file = json.load(self.f)
         self.current_step = 0
-        self.max_steps = 500
+        self.max_steps = 3000
 
         # Define color mapping for balls
         self.colors = {1: "red", 2: "blue", 3: "white", 4: "yellow", 5: "magenta", 6: "cyan", 7: "green", 8: "black", 9:"dark_green",  10:"light_green",  11:"light_yellow", 12:"dodger_blue_3"}
@@ -98,7 +95,7 @@ class BallSortEnv(gym.Env):
             if self.is_solved_tube(goal_tube):
                 reward += 100
         else:
-            reward = -2
+            reward = -1
 
         # Always do this because for a legal move we overrite the self.state
         next_state = self.state
