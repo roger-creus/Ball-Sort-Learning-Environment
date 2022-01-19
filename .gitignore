@@ -1,0 +1,5 @@
+./wandb/*
+./gym-ballsort/__pycache__/*
+./gym_ballsort.egg-info/*
+./logs/*
+experiments.txt
