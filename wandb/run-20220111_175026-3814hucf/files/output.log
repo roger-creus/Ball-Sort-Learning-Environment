@@ -1,0 +1,15 @@
+C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+SOLVED
+Episode 0 reward 689
+Traceback (most recent call last):
+  File ".\gym_ballsort\src\drqn.py", line 199, in <module>
+    'loss': np.mean(losses),
+  File "<__array_function__ internals>", line 6, in mean
+  File "C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\numpy\core\fromnumeric.py", line 3441, in mean
+    out=out, **kwargs)
+  File "C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\numpy\core\_methods.py", line 163, in _mean
+    arr = asanyarray(a)
+  File "C:\Users\creus\Anaconda3\envs\ballsort\lib\site-packages\torch\_tensor.py", line 678, in __array__
+    return self.numpy()
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.

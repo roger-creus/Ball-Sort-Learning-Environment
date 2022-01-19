@@ -91,6 +91,7 @@ class BallSortEnv(gym.Env):
         if ilegal is not True:
             self.state[goal, goal_ball_position+1] = self.state[source, source_ball_position]
             self.state[source,source_ball_position] = 0
+
             reward = -1
             if self.is_solved_tube(goal_tube):
                 reward += 100
@@ -173,7 +174,7 @@ class BallSortEnv(gym.Env):
             # if there is an empty tube then state is not terminal
             if np.nonzero(tube_i)[0].size == 0:
                 return False
-            else:
+            else:   
                 highest_ball_position_i = np.max(np.nonzero(tube_i))
                 highest_ball_i = tube_i[highest_ball_position_i]
                 j = 0

@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-01-10T12:25:57.030831",
+    "startedAt": "2022-01-10T12:25:29.900921",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": ".\\gym_ballsort\\src\\dqn.py",
+    "codePath": "gym_ballsort\\src\\dqn.py",
+    "git": {
+        "remote": "https://github.com/yuyecreus/Ball-Sort-Learning-Environment.git",
+        "commit": "ab5f34883afe56a7094c1289c9ee710c9c20d90c"
+    },
+    "email": null,
+    "root": "C:/Users/creus/Desktop/Ball-Sort-Learning-Environment",
+    "host": "CREUS2",
+    "username": "creus",
+    "executable": "C:\\Users\\creus\\Anaconda3\\envs\\ballsort\\python.exe"
+}

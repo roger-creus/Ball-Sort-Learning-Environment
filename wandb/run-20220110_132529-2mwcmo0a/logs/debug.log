@@ -1,0 +1,25 @@
+2022-01-10 13:25:29,900 INFO    MainThread:41584 [wandb_setup.py:_flush():71] setting env: {}
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [wandb_setup.py:_flush():71] setting login settings: {'api_key': '***REDACTED***'}
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [wandb_init.py:_log_setup():371] Logging user logs to C:\Users\creus\Desktop\Ball-Sort-Learning-Environment\wandb\run-20220110_132529-2mwcmo0a\logs\debug.log
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [wandb_init.py:_log_setup():372] Logging internal logs to C:\Users\creus\Desktop\Ball-Sort-Learning-Environment\wandb\run-20220110_132529-2mwcmo0a\logs\debug-internal.log
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [wandb_init.py:init():404] calling init triggers
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [wandb_init.py:init():411] wandb.init called with sweep_config: {}
+config: {'gamma': 0.99, 'log_interval': 25, 'episodes': 1000000, 'num_steps': 1000, 'batch_size': 64, 'lr': 3e-05, 'eps_start': 1.0, 'eps_end': 0.1, 'eps_decay': 30000, 'target_update': 1000, 'replay_size': 5000}
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [wandb_init.py:init():460] starting backend
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2022-01-10 13:25:29,916 INFO    MainThread:41584 [backend.py:ensure_launched():216] starting backend process...
+2022-01-10 13:25:30,101 INFO    MainThread:41584 [backend.py:ensure_launched():222] started backend process with pid: 42040
+2022-01-10 13:25:30,101 INFO    MainThread:41584 [wandb_init.py:init():469] backend started and connected
+2022-01-10 13:25:30,116 INFO    MainThread:41584 [wandb_init.py:init():533] updated telemetry
+2022-01-10 13:25:30,317 INFO    MainThread:41584 [wandb_init.py:init():563] communicating current version
+2022-01-10 13:25:32,085 INFO    MainThread:41584 [wandb_init.py:init():568] got version response 
+2022-01-10 13:25:32,085 INFO    MainThread:41584 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-10 13:25:32,316 INFO    MainThread:41584 [wandb_init.py:init():606] starting run threads in backend
+2022-01-10 13:25:37,351 INFO    MainThread:41584 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-10 13:25:37,354 INFO    MainThread:41584 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2022-01-10 13:25:37,354 INFO    MainThread:41584 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2022-01-10 13:25:37,357 INFO    MainThread:41584 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-01-10 13:25:37,357 INFO    MainThread:41584 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-10 13:29:23,293 INFO    MainThread:41584 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 255
+2022-01-10 13:29:23,294 INFO    MainThread:41584 [wandb_run.py:_restore():1752] restore
